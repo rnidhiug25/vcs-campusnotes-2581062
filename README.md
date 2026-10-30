@@ -18,3 +18,10 @@ CampusNotes is a simple web-based academic notes manager.
 1. Download or clone the repository.
 2. Open the CampusNotes folder.
 3. Open index.html in a web browser.
+
+
+
+## Project Purpose
+
+This project helps students organize their academic notes
+using a simple web-based interface.
