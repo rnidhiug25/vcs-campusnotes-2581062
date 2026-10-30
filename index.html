@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusNotes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>CampusNotes</h1>
+        <p>Your personal academic notes manager</p>
+    </header>
+
+    <main>
+        <section class="note-section">
+            <h2>Add a New Note</h2>
+
+            <input type="text" id="noteTitle"
+                   placeholder="Enter note title">
+
+            <textarea id="noteContent"
+                      placeholder="Write your notes here..."></textarea>
+
+            <button onclick="addNote()">Add Note</button>
+        </section>
+
+        <section class="notes-section">
+            <h2>My Notes</h2>
+            <div id="notesList">
+                <p>No notes added yet.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>CampusNotes - Organize Your Learning</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
