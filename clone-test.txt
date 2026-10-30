@@ -1,0 +1,6 @@
+CampusNotes Clone Verification
+
+This file was created inside the cloned repository.
+
+It demonstrates that changes made in a second
+repository copy can be pushed to GitHub.
