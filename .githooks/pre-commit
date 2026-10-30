@@ -1,0 +1,12 @@
+#!/bin/sh
+
+echo "Running pre-commit hook..."
+
+if git grep --cached -n -E 'TODO|FIXME' -- . ':(exclude).githooks/**'; then
+    echo "ERROR: Commit blocked!"
+    echo "Remove TODO or FIXME from staged files."
+    exit 1
+fi
+
+echo "Pre-commit check passed."
+exit 0
